@@ -6,6 +6,6 @@ remote_state {
   }
   config = {
     bucket = "iplatform2025"
-    prefix = format("%s.tfstate", get_path_from_repo_root())
+    prefix = format("%s", get_path_from_repo_root())
   }
 }

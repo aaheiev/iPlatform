@@ -2,8 +2,20 @@ output "vpc_id" {
   value = google_compute_network.vpc.id
 }
 
+output "vpc_name" {
+  value = google_compute_network.vpc.name
+}
+
 output "gke_subnet_id" {
   value = google_compute_subnetwork.gke_subnet.id
+}
+
+output "gke_subnet_name" {
+  value = google_compute_subnetwork.gke_subnet.name
+}
+
+output "cloudrun_subnet_name" {
+  value = google_compute_subnetwork.cloudrun_subnet.name
 }
 
 # output "gke_pods_cidr" {
