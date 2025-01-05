@@ -7,6 +7,8 @@
 
 # Ignore provider veriosn
 .terraform.lock.hcl
+.terraform
+.terragrunt-cache
 
 # Local .terraform directories
 **/.terraform/*
